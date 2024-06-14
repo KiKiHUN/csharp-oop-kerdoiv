@@ -1,0 +1,35 @@
+﻿<Window x:Class="beadando.ablakok.kerdesSzerkeszto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beadando.ablakok"
+        mc:Ignorable="d"
+        Title="Kérdések módosítása" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF8791B1" Offset="0.1"/>
+            <GradientStop Color="#FF6F85C5" Offset="0.85"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <ListBox x:Name="KerdesList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="54,52,54,19" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="0,0,0,1" Width="{Binding ActualWidth, ElementName=listbox1}" BorderBrush="Black" >
+                        <Label Content="{Binding}"/>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="BTN_uj" Content="Új" HorizontalAlignment="Left" Margin="78,10,0,0" VerticalAlignment="Top" Width="115" Height="32" Click="BTN_uj_Click"/>
+        <Button x:Name="BTN_megsem" Content="Bezárás" HorizontalAlignment="Left" Margin="631,10,0,0" VerticalAlignment="Top" Width="115" Height="32" Click="BTN_megsem_Click"/>
+        <Canvas x:Name="CANVAS_kerdes_edit_uj" Margin="189,186,124,136" Visibility="Hidden" Background="#FF10999C">
+            <TextBox x:Name="TX_kerdes" Canvas.Left="10" TextWrapping="Wrap" Text="" Canvas.Top="10" Width="436" Height="37" HorizontalScrollBarVisibility="Auto" FontSize="15" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFD0E1E2"/>
+            <Button x:Name="btn_edit_save" Content="Mentés" Canvas.Left="284" Canvas.Top="53" Height="32" Width="74" Click="Kerdes_edit_uj_mentes" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="Mégsem" Canvas.Left="371" Canvas.Top="53" Height="32" Width="75" Click="Kerdes_edit_Megsem_click" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label x:Name="windowMode" Content="" Canvas.Left="21" Canvas.Top="69"/>
+        </Canvas>
+        <Label Content="Kérdések szerkesztése" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="37" Width="252" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\beadando.exe
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\beadando.dll
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\beadando.deps.json
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\beadando.runtimeconfig.json
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\beadando.pdb
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\WpfAnimatedGif.dll

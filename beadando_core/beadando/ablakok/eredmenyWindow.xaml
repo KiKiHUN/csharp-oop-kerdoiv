@@ -1,0 +1,26 @@
+﻿<Window x:Class="beadando.ablakok.eredmenyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beadando.ablakok"
+        xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
+        mc:Ignorable="d"
+        Title="Statisztika" Height="396" Width="469" WindowStartupLocation="CenterOwner" ResizeMode="CanMinimize" WindowStyle="ToolWindow">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF8791B1" Offset="0.1"/>
+            <GradientStop Color="#FF6F85C5" Offset="0.85"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <CheckBox x:Name="szures_kerdesre" Content="Kérdésre" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Checked="szures_kerdesre_Checked" />
+        <CheckBox x:Name="szures_kitoltokre" Content="Kitöltőkre" HorizontalAlignment="Left" Margin="36,30,0,0" VerticalAlignment="Top" Checked="szures_kitoltokre_Checked"/>
+        <ComboBox x:Name="combo_valaszto" HorizontalAlignment="Left" Margin="155,14,0,0" VerticalAlignment="Top" Width="272" Height="27" SelectionChanged="combo_valaszto_SelectionChanged"/>
+        <Canvas x:Name="canvas_chart" Margin="0,50,60,0" Height="320" VerticalAlignment="Top" HorizontalAlignment="Right" Width="326">
+            <WpfPlot x:Name="diagram" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Center" Height="271" VerticalAlignment="Top" Width="306"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>

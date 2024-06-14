@@ -1,0 +1,12 @@
+﻿<Window x:Class="beadando.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beadando"
+        mc:Ignorable="d"
+        Title="IncidensKitöltő" Height="250" Width="250" Background="Black" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Cursor="ArrowCD">
+    <Grid Margin="0,0,0,0">
+        <Image x:Name="kep" Height="200" Margin="10,21,0,0" Width="200" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

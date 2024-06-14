@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\prog\\c#\\beadando_core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|i:\\prog\\c#\\beadando_core\\beadando\\osztalyok\\dbrelated\\adatbazis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|solutionrelative:beadando\\osztalyok\\dbrelated\\adatbazis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|i:\\prog\\c#\\beadando_core\\beadando\\osztalyok\\funkciok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|solutionrelative:beadando\\osztalyok\\funkciok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|i:\\prog\\c#\\beadando_core\\beadando\\ablakok\\adminmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9ED13D-A447-4BF9-B2E1-D3A6F7FE4EDD}|beadando\\beadando.csproj|solutionrelative:beadando\\ablakok\\adminmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adatbazis.cs",
+              "DocumentMoniker": "I:\\prog\\c#\\beadando_core\\beadando\\Osztalyok\\DBrelated\\Adatbazis.cs",
+              "RelativeDocumentMoniker": "beadando\\Osztalyok\\DBrelated\\Adatbazis.cs",
+              "ToolTip": "I:\\prog\\c#\\beadando_core\\beadando\\Osztalyok\\DBrelated\\Adatbazis.cs",
+              "RelativeToolTip": "beadando\\Osztalyok\\DBrelated\\Adatbazis.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:57:42.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funkciok.cs",
+              "DocumentMoniker": "I:\\prog\\c#\\beadando_core\\beadando\\Osztalyok\\Funkciok.cs",
+              "RelativeDocumentMoniker": "beadando\\Osztalyok\\Funkciok.cs",
+              "ToolTip": "I:\\prog\\c#\\beadando_core\\beadando\\Osztalyok\\Funkciok.cs",
+              "RelativeToolTip": "beadando\\Osztalyok\\Funkciok.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAwG0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:57:08.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminMain.xaml.cs",
+              "DocumentMoniker": "I:\\prog\\c#\\beadando_core\\beadando\\ablakok\\AdminMain.xaml.cs",
+              "RelativeDocumentMoniker": "beadando\\ablakok\\AdminMain.xaml.cs",
+              "ToolTip": "I:\\prog\\c#\\beadando_core\\beadando\\ablakok\\AdminMain.xaml.cs",
+              "RelativeToolTip": "beadando\\ablakok\\AdminMain.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:56:39.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

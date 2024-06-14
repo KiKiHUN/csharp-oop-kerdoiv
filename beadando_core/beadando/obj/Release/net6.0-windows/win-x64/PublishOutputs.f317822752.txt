@@ -1,0 +1,7 @@
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\beadando.pdb
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\comerr64.dll
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\gssapi64.dll
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\k5sprt64.dll
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\krb5_64.dll
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\krbcc64.dll
+G:\suli\prog\c#\beadando_core\beadando\bin\Release\net6.0-windows\publish\win-x64\beadando.exe

@@ -1,0 +1,52 @@
+﻿<Window x:Class="beadando.UserMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beadando"
+        mc:Ignorable="d"
+        Title="Incidens Kérdőívek" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF8791B1" Offset="0.1"/>
+            <GradientStop Color="#FF6F85C5" Offset="0.85"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="kutataslista" Visibility="Hidden" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.ColumnSpan="2">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF156D7F"/>
+                    <GradientStop Color="#FF1BA0B9" Offset="0.967"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="0,0,0,1" Width="{Binding ActualWidth, ElementName=listbox1}" BorderBrush="Black" >
+                        <Label Content="{Binding}"/>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Canvas x:Name="CANVAS_Kitolto" Visibility="Hidden" Grid.ColumnSpan="2">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF156D7F"/>
+                    <GradientStop Color="#FF1BA0B9" Offset="0.967"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <Label x:Name="TX_Kerdes" Content="" Canvas.Left="88" Canvas.Top="47" Height="135" Width="624" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <ComboBox x:Name="box_valasz" Canvas.Left="124" Canvas.Top="229" Width="552" Height="49" SelectionChanged="box_valasz_SelectionChanged" Background="#FF61F9F6" BorderBrush="Black" Foreground="Black"/>
+            <Button x:Name="Back" Content="&lt;-" Canvas.Left="338" Canvas.Top="344" HorizontalAlignment="Center" Height="36" VerticalAlignment="Center" FontSize="20" Click="BackClick" Background="#FF61F9F6" BorderBrush="#FF4C3434" />
+            <Button x:Name="Next" Content="-&gt;" Canvas.Left="436" Canvas.Top="344" Height="36" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Click="NextClick" Background="#FF61F9F6" BorderBrush="#FF4C3434"/>
+            <Button x:Name="Megsem" Content="Mégsem" Canvas.Left="703" Canvas.Top="349" Height="36" Width="59" Click="Megsem_Click" BorderBrush="#FF4C3434" Background="#FFD87676"/>
+            <Button x:Name="Bekuld" Content="Bead" Canvas.Left="617" Canvas.Top="349" Height="36" Width="59" HorizontalAlignment="Left" VerticalAlignment="Center" Click="kuldClick" Background="#FF48CA98" BorderBrush="#FF4C3434" />
+            <Label x:Name="pageCounter" Content="x/y" Canvas.Left="369" Canvas.Top="345" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Itt lehet jogosultságot és bejelentkezést megadni.-->
+<Adatok>
+  <BejelentkezesTipus>
+    <tipus>admin</tipus>
+  </BejelentkezesTipus>
+  <SzemelyiAdatok>
+    <email>alma@alma.alma</email>
+    <nem>kartonpapir</nem>
+    <kor>69</kor>
+    <vegzettseg>ovoda</vegzettseg>
+  </SzemelyiAdatok>
+</Adatok>

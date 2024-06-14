@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>G:\suli\prog\c#\beadando_core\beadando\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ablakok\AdminMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ablakok\eredmenyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ablakok\kerdesSzerkeszto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ablakok\loadingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ablakok\UserMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ablakok\valaszSzerkeszto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ablakok\AdminMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\eredmenyWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\kerdesSzerkeszto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\loadingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\UserMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ablakok\valaszSzerkeszto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

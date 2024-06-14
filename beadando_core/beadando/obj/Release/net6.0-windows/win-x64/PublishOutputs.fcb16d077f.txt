@@ -1,0 +1,2 @@
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\win-x64\beadando.pdb
+H:\suli\prog\c#\beadando\beadando\bin\Release\net6.0-windows\publish\win-x64\beadando.exe
